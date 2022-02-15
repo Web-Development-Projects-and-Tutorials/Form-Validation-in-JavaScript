@@ -10,7 +10,7 @@ This is Client Side Form Validation
 
 ## Project
 
-
+![This is an image](https://github.com/Web-Development-Projects-and-Tutorials/Form-Validation-in-JavaScript/blob/main/assets/Screenshot%20(149).png)
 
 
 ## Tech Stack
@@ -58,7 +58,4 @@ Contributions are always welcome!
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Manoj_Rathod/Gradient_Generator)
 ### Repository View Counter - HITS
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Tanu-N-Prabhu/Python)
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
