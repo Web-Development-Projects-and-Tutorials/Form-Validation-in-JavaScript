@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #efefef;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: #fff;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.header {
+  background: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+.header h1 {
+  margin: 0;
+}
+.form {
+  padding: 30px 40px;
+}
+.form_control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form_control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form_control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-family: inherit;
+  border: 2px solid #f0f0f0;
+  outline: none;
+}
+.form_control.success input {
+  border-color: #4caf50;
+}
+.form_control.error input {
+  border-color: #f44336;
+}
+.form_control i {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  visibility: hidden;
+}
+.form_control.success i.fa-check-circle {
+  color: #4caf50;
+  visibility: visible;
+}
+.form_control.error i.fa-exclamation-circle {
+  color: #f44336;
+  visibility: visible;
+}
+.form_control small {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
+.form_control.error small {
+  color: #f44336;
+  visibility: visible;
+}
+.form button {
+  background: #4caf50;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  font-family: inherit;
+  cursor: pointer;
+}
